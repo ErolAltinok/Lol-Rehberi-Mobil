@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1E283D"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vadi'den Fısıltılar"
+        android:textColor="#C89B3C"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/tvWidgetCharacterName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bekleniyor..."
+        android:textColor="#F0E6D2"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/btnWidgetRefresh"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:backgroundTint="#005A82"
+        android:text="YENİ TAKTİK"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:layout_marginTop="8dp"/>
+
+</LinearLayout>
